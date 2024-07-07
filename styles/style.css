@@ -34,6 +34,10 @@ nav ul {
 
 /* shared style */
 
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
+
 .text-primary{
     color:rgb(253, 110, 10);
 }
@@ -52,7 +56,24 @@ nav ul {
     font-size: 20px;
     border-radius: 5px;
 
+}
 
+.text-center{
+    text-align: center;
+}
+
+
+
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+}
+
+.section-info{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
 }
 
 nav ul li{
@@ -79,8 +100,7 @@ nav li a{
 }
 .banner-info{
     color: rgb(117, 117, 117);
-
-font-size: 18px;
+    font-size: 18px;
 }
 
 .primary-btn{ 
@@ -106,7 +126,69 @@ font-size: 18px;
 }
 
 .banner-profile{
-    width: 584px;
-    height: 676px;  
+    max-width: 584px;
+      
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item-info{
+    font-weight: 600;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;  
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.skill-head{
+    font-weight: 700;
+    font-size: 20;
+}
+
+.skill-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(24, 24, 24);
+}
+
+.skill-title-info{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
+.what-skills{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0  6px 50px  0 rgba(0, 0, 0, 0.06);
 }
 
